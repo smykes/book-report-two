@@ -1,0 +1,33 @@
+header {
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+main {
+  h2 {
+    text-align: center;
+  }
+  .month-wrapper,
+  .card-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
